@@ -1,0 +1,5 @@
+smallest = none
+print("before:", smallest)
+for itevar in [3,41,1,2,9,74,15]:
+if smallest is None or itevar < smallest:
+smallest = itervar
